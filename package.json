@@ -1,0 +1,30 @@
+{
+  "name": "sand-session",
+  "version": "0.0.2",
+  "description": "Sessions",
+  "main": "lib/Session.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocketly/sand-session"
+  },
+  "author": "Kevin Smithson <ksmithson@pocketly.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocketly/sand-session/issues"
+  },
+  "homepage": "https://github.com/pocketly/sand-session",
+  "dependencies": {
+    "sand": "^0.1.6",
+    "sand-grain": "^0.1.2",
+    "sand-riak": "0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "mockery": "^1.4.0",
+    "riak-mock": "0.0.1",
+    "should": "^4.6.1"
+  }
+}
