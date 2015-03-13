@@ -1,6 +1,6 @@
 {
   "name": "sand-session",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Sessions",
   "main": "lib/Session.js",
   "scripts": {
@@ -17,14 +17,16 @@
   },
   "homepage": "https://github.com/pocketly/sand-session",
   "dependencies": {
-    "sand": "^0.1.6",
-    "sand-grain": "^0.1.2",
-    "sand-riak": "0.0.7"
+    "sand-grain": "^1.0.0",
+    "sand-riak": "1.0.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
     "mockery": "^1.4.0",
     "riak-mock": "0.0.1",
     "should": "^4.6.1"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
