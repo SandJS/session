@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/pocketly/sand-session",
   "dependencies": {
+    "async": "^1.0.0",
+    "lodash": "^3.9.3",
+    "moment": "^2.10.3",
     "sand-grain": "^1.0.0",
     "sand-redis": "^1.0.1",
     "sand-riak": "1.0.0"
