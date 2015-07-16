@@ -10,15 +10,18 @@ describe('Sessions', function() {
     mockery.registerSubstitute('riak-js', 'riak-mock');
 
     var Session = require('../lib/Session');
-    app = sand()
-      .use(Session, {
-        all: {
-          riak: {
-            bucket: 'sessions'
-          }
+    app = new sand({
+      appPath: __dirname + '/app'
+    })
+    .use(require('sand-riak'), {})
+    .use(Session, {
+      all: {
+        clientOptions: {
+          bucket: 'sessions'
         }
-      })
-      .start(done);
+      }
+    })
+    .start(done);
   });
 
   it('should save session', function(done) {

@@ -28,6 +28,8 @@
     "mocha": "^2.1.0",
     "mockery": "^1.4.0",
     "riak-mock": "0.0.1",
+    "sand": "^1.0.1",
+    "sand-riak": "1.0.0",
     "should": "^4.6.1"
   },
   "publishConfig": {
